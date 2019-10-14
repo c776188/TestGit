@@ -23,3 +23,11 @@ git stash pop 'stash@{0}'
 ##### Undoing a git pull --rebase.
 `git checkout -b after-commit HEAD@{1} # or the commit you want to recover`
 >[Undoing a git pull --rebase](https://stackoverflow.com/questions/2213235/undoing-a-git-pull-rebase)
+
+### Others
+
+```
+git log 
+git diff --name-only master #檢查目前有哪些file被更改過
+git blame file_path #檢查該檔案每一行是誰寫的
+```
