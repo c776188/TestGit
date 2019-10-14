@@ -2,7 +2,7 @@
 
 ### git stash
 
-```
+```Shell Session
 git stash save 'stash 1'
 git stash list
 git pull
