@@ -29,5 +29,6 @@ git stash pop 'stash@{0}'
 ```
 git log 
 git diff --name-only master #檢查目前有哪些file被更改過
+git show [xxxx] --name-only #查看該commit有哪些file被更改過
 git blame file_path #檢查該檔案每一行是誰寫的
 ```
