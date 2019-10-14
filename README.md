@@ -19,3 +19,7 @@ git stash pop 'stash@{0}'
 
 `git pull origin master --rebase`
 >[Git: 四種將分支與主線同步的方法](https://cythilya.github.io/2018/06/19/git-merge-branch-into-master/)
+
+##### Undoing a git pull --rebase.
+`git checkout -b after-commit HEAD@{1} # or the commit you want to recover`
+>[Undoing a git pull --rebase](https://stackoverflow.com/questions/2213235/undoing-a-git-pull-rebase)
