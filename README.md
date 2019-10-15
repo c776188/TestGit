@@ -29,6 +29,10 @@ git stash pop 'stash@{0}'
 ```
 git log 
 git diff --name-only master #檢查目前有哪些file被更改過
+
 git show [xxxx] --name-only #查看該commit有哪些file被更改過
 git blame file_path #檢查該檔案每一行是誰寫的
+
+git cherry -v #查看到未传送到远程代码库的提交描述/说明
+git log master ^origin/master #查看到未传送到远程代码库的提交详情
 ```
