@@ -24,6 +24,16 @@ git stash pop 'stash@{0}'
 `git checkout -b after-commit HEAD@{1} # or the commit you want to recover`
 >[Undoing a git pull --rebase](https://stackoverflow.com/questions/2213235/undoing-a-git-pull-rebase)
 
+### git rebase
+```
+git rebase --skip => 作 git rebase 時，如果發生 conflict，選擇放棄 {branch_name_2} 的 patch 
+
+git rebase --abort => 作 git rebase 時，如果發生 conflict，選擇回到原本的 branch 並放棄此 rebase 及其修改 
+
+git rebase -i reference~# => 在本機端，透過編輯器 (vi) 重新挑選、排列、修改、分離、結合…，在 reference~# 之後的所有 commit 內容 
+```
+>[git 指令 ](http://silverwind1982.pixnet.net/blog/post/286048390-git-%E6%8C%87%E4%BB%A4)
+
 ### Others
 
 ```
