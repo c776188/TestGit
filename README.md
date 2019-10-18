@@ -39,6 +39,7 @@ git rebase -i reference~# => 在本機端，透過編輯器 (vi) 重新挑選、
 ```
 git log 
 git diff --name-only master #檢查目前有哪些file被更改過
+git diff --name-status master #類似以上
 
 git show [xxxx] --name-only #查看該commit有哪些file被更改過
 git blame file_path #檢查該檔案每一行是誰寫的
