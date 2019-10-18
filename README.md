@@ -34,6 +34,11 @@ git rebase -i reference~# => 在本機端，透過編輯器 (vi) 重新挑選、
 ```
 >[git 指令 ](http://silverwind1982.pixnet.net/blog/post/286048390-git-%E6%8C%87%E4%BB%A4)
 
+### git tree graph
+`git log --graph --oneline --all`
+>[Unable to show a Git tree in terminal](https://stackoverflow.com/questions/1064361/unable-to-show-a-git-tree-in-terminal)
+
+
 ### Others
 
 ```
